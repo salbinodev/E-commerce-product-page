@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import ProductPage from "./Pages/ProductPage";
+import CheckoutPage from './Components/CheckoutPage';
 import Collections from './Pages/Collections';
 import Header from './Components/Header'; // Import your Header component
 
@@ -20,7 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<ProductPage />} />
         <Route path="/collections" element={<Collections />} />
-        {/* You can add more routes as needed */}
+        <Route path="/checkout" element={<CheckoutPage />} />
       </Routes>
     </div>
   );

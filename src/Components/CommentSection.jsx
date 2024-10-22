@@ -21,7 +21,7 @@ function CommentSection() {
                     className="w-full p-2 border rounded-md"
                     placeholder="Add a comment..."
                 />
-                <button type="submit" className="bg-purple-600 text-white mt-2 px-4 py-2 rounded-md">
+                <button type="submit" className="bg-orange-600 text-white mt-2 px-4 py-2 rounded-md">
                     Comment
                 </button>
             </form>
