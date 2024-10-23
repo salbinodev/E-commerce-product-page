@@ -38,7 +38,7 @@ function Header({ toggleMobileMenu, isMobileMenuOpen }) {
                             <Link to="/about">About</Link>
                         </li>
                         <li className="hover:text-orange-500 cursor-pointer transition-colors duration-200">
-                            <Link to="/contact">Contact</Link>
+                            <Link to="/Contact">Contact</Link>
                         </li>
                     </ul>
                 </nav>

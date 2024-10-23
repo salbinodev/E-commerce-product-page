@@ -13,7 +13,7 @@ function ProductPage() {
     const [cart, setCart] = useState([]);
     const navigate = useNavigate();
 
-    console.log(mainImage, largeImage)
+    // console.log(mainImage, largeImage)
 
     const increaseQuantity = () => {
         setQuantity((prev) => prev + 1);
