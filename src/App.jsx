@@ -3,7 +3,9 @@ import { Route, Routes } from "react-router-dom";
 import ProductPage from "./Pages/ProductPage";
 import CheckoutPage from './Components/CheckoutPage';
 import Collections from './Pages/Collections';
+import ContactUs from './Pages/ContactUs';
 import Header from './Components/Header'; // Import your Header component
+import PaymentPage from "./Components/PaymentPage"
 
 function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -21,7 +23,9 @@ function App() {
       <Routes>
         <Route path="/" element={<ProductPage />} />
         <Route path="/collections" element={<Collections />} />
+        <Route path="/Contact" element={<ContactUs />} />
         <Route path="/checkout" element={<CheckoutPage />} />
+        <Route path="/Payment" element={<PaymentPage />} />
       </Routes>
     </div>
   );

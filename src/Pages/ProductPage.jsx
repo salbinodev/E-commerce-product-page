@@ -50,12 +50,13 @@ function ProductPage() {
                         },
                         largeImage: {
                             src: largeImage,  // Larger image for magnification
-                            width: 1500,  // Large image width (adjust for high resolution)
-                            height: 1500,  // Large image height 
+                            width: 900,  // Large image width (adjust for high resolution)
+                            height: 750,  // Large image height 
                         },
+                        isHintEnabled: true,
                         enlargedImageContainerDimensions: {
-                            width: '150%',  
-                            height: '150%'  
+                            width: '180%',  
+                            height: '100%'  
                         },
                         enlargedImagePosition: 'beside',  
                         lensStyle: { backgroundColor: 'rgba(0, 0, 0, 0.2)' }  
